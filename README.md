@@ -1,0 +1,3 @@
+## Description of notebooks according their purposes
+
+1. **Munsell_C_to_Lab_D65_to_Munsell_C**: A test code, which takes the Munsell colour code (the dafault value 10B 9/2 is taken from [the work by Otsuka & Nakae](https://doi.org/10.3168/jds.S0022-0302(69)86894-3), where it is reported as corresponding to resazurin added to milk), considers it as given respectively to Illuminant C, standard for the Munsell scheme, convert to CIE L\*a\*b\* defined respectively to Illuminant D65, and, afterwards, reconstructs the standard Munsell colour code; the notebook is auxiliary to verify self-consistency of conversion procedures. 
